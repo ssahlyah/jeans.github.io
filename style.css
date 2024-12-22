@@ -49,7 +49,7 @@
 }
 
 .video video {
-    width: 100%; 
+    width: auto; 
     height: auto; 
 }
 .oldj{
@@ -112,10 +112,10 @@ footer{
         width: 100%;
     }
     .video {
-        width: 100%;
+        width: auto;
     }
     .video video {
-        width: 100%; 
+        width: auto; 
         height: auto; 
     }
     .zachiti {
