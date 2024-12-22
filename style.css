@@ -45,7 +45,7 @@
     
 }
 .text, .video {
-    width: 48%; 
+    width: auto; 
 }
 
 .video video {
