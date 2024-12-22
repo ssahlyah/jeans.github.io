@@ -115,7 +115,7 @@ footer{
         width: auto;
     }
     .video video {
-        width: auto; 
+        width: 100px; 
         height: auto; 
     }
     .zachiti {
