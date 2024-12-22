@@ -1,0 +1,121 @@
+
+.photo{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    font-size: larger;
+    flex-wrap: nowrap;
+}
+.photo img{
+    width: 20%;
+    height: auto;
+}
+.head{
+    text-align: center;
+    background-color:burlywood;
+    width: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+}
+.porady{
+    text-align: center;
+    width: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: beige;
+}
+.podvodka, .oldj, .poradyt{
+    font-size: larger;
+    margin: 50px;
+}
+.ogorodka{
+    width: 100%;
+    height: 2px; 
+    background-color: beige; 
+    margin: 20px 0; 
+}
+.zachiti{
+    font-size: larger;
+    margin: 50px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.text, .video {
+    width: 48%; 
+}
+
+.video video {
+    width: 100%; 
+    height: auto; 
+}
+.oldj{
+    margin: 50px;
+    font-size: larger;
+}
+.oldj img{
+    width: 20%;
+    height: auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-size: 20px; 
+    font-family: Arial; 
+}
+.doglyad{
+    align-items: center;
+    margin: 50px;
+    font-size: larger;
+}
+.poriv{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    font-size: larger;
+    flex-wrap: nowrap;
+}
+.poriv img{
+    width: 20%;
+    height: auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: burlywood;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .photo {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .photo img {
+        width: 100%; 
+    }
+    .poriv {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .poriv img {
+        width: 100%;
+    }
+    .video {
+        width: 100%;
+    }
+    .zachiti {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
