@@ -4,6 +4,11 @@
     margin: 50px;
     justify-content: space-between;
     font-size: larger;
+    flex-wrap: nowrap;
+}
+.photo img{
+    width: 20%;
+    height: auto;
 }
 .head{
     text-align: center;
@@ -87,4 +92,14 @@ footer{
     font-size: larger;
     align-items: center;
     text-align: center;
+}
+@media (max-width: 768px) {
+    .photo {
+        flex-direction: column; /* Вертикальне розташування елементів на малих екранах */
+        align-items: center; /* Центрування елементів по горизонталі */
+    }
+
+    .photo img {
+        width: 100%; /* Зображення займає всю ширину контейнера */
+    }
 }
